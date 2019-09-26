@@ -23,4 +23,4 @@ def movies():
     print(movieslist)
     for movie in movieslist:
         movies.append({'title': movie.title , 'rating': movie.rating})
-    return jsonify({'movies': movies})
+    return jsonify(movies)
