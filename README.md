@@ -15,3 +15,6 @@ sqlite3 api/database.db
 
 
 Front End: - React
+
+npm install
+npm start
